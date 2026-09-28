@@ -1,0 +1,8 @@
+{
+  "name": "Remix Toretark设计组品牌资产库",
+  "description": "公司内部设计组品牌资产沉淀与设计规范系统，涵盖品牌定位、Logo与色彩规范、字体排版、电商/独立站分辨率标准、矢量素材库与业务场景模板。",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
