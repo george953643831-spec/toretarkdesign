@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <defs>
+    <radialGradient id="lsOcclusion" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.32"/>
+      <stop offset="40%" stop-color="#1A1A1D" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lsSoft" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#121214" stop-opacity="0.22"/>
+      <stop offset="60%" stop-color="#2A2B30" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lsBottleBody" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#111215"/>
+      <stop offset="12%" stop-color="#22242A"/>
+      <stop offset="28%" stop-color="#555864"/>
+      <stop offset="36%" stop-color="#9EA4B5"/>
+      <stop offset="44%" stop-color="#3D404A"/>
+      <stop offset="70%" stop-color="#151619"/>
+      <stop offset="92%" stop-color="#3A3E48"/>
+      <stop offset="100%" stop-color="#18191D"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="1000" fill="#FFFFFF"/>
+
+  <!-- Ground Shadow -->
+  <ellipse cx="500" cy="855" rx="170" ry="34" fill="url(#lsSoft)"/>
+  <ellipse cx="500" cy="858" rx="105" ry="15" fill="url(#lsOcclusion)"/>
+
+  <!-- Bottle Group -->
+  <g transform="translate(380, 160)">
+    <!-- Sprayer -->
+    <g transform="translate(30, 0)">
+      <path d="M40,55 L8,55 L4,72 L40,70 Z" fill="#25262B" stroke="#444752" stroke-width="1"/>
+      <ellipse cx="6" cy="63" rx="3" ry="8" fill="#151619" stroke="#FFB600" stroke-width="1"/>
+      <path d="M38,42 C38,42 65,30 115,30 C165,30 185,48 185,75 C185,100 160,118 135,120 L135,138 L85,138 L85,116 C65,116 48,102 42,88 Z" fill="#1C1D22" stroke="#383B44" stroke-width="1"/>
+      <path d="M52,90 C50,110 58,150 78,175 C82,180 88,175 85,168 C72,145 68,115 68,90 Z" fill="#2B2D35" stroke="#4B4E5A" stroke-width="1"/>
+      <rect x="75" y="138" width="70" height="24" rx="3" fill="#2A2C34" stroke="#454854" stroke-width="1"/>
+    </g>
+
+    <!-- Bottle Body -->
+    <path d="M102,162 L118,162 C118,185 125,205 145,218 L168,235 C190,250 205,275 205,305 L205,680 C205,690 195,696 185,696 L35,696 C25,696 15,690 15,680 L15,305 C15,275 30,250 52,235 L75,218 C95,205 102,185 102,162 Z" fill="url(#lsBottleBody)" stroke="#383B45" stroke-width="1.2"/>
+
+    <!-- Key Highlight Strip -->
+    <path d="M72,255 L72,685" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+    <!-- Label -->
+    <g transform="translate(18, 310)">
+      <rect width="184" height="310" rx="4" fill="#14161A" stroke="#2D303A" stroke-width="1"/>
+      <rect x="0" y="18" width="184" height="8" fill="#FFB600"/>
+      <text x="92" y="70" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="900" letter-spacing="3">TURTLE</text>
+      <text x="92" y="145" text-anchor="middle" fill="#FFB600" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="900">TIRE SHINE</text>
+      <rect x="22" y="180" width="140" height="20" rx="3" fill="#1E2027"/>
+      <text x="92" y="194" text-anchor="middle" fill="#A0A5B5" font-family="sans-serif" font-size="8.5" font-weight="700">DEEP WET GLOSS</text>
+      <text x="92" y="275" text-anchor="middle" fill="#E5E7EB" font-family="monospace" font-size="10" font-weight="700">16 FL. OZ. (473 mL)</text>
+    </g>
+  </g>
+
+  <!-- ================= 4 LIGHTING CHANNEL ANNOTATIONS (As in 03.jpg) ================= -->
+  <!-- 1. Top Fill Light -->
+  <g transform="translate(500, 70)">
+    <rect x="-85" y="0" width="170" height="32" rx="6" fill="#DC2626"/>
+    <text x="0" y="21" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="900">顶部补光 Top Light</text>
+    <path d="M0,35 L0,75 M-8,65 L0,77 L8,65" stroke="#DC2626" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- 2. Mid-Left Strip Key Light -->
+  <g transform="translate(130, 430)">
+    <rect x="0" y="0" width="185" height="32" rx="6" fill="#DC2626"/>
+    <text x="92" y="21" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="900">中左侧条形主光</text>
+    <path d="M190,16 L290,20 M280,10 L292,20 L280,30" stroke="#DC2626" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- 3. Right Rim / Fill Light -->
+  <g transform="translate(680, 430)">
+    <rect x="0" y="0" width="185" height="32" rx="6" fill="#DC2626"/>
+    <text x="92" y="21" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="900">右侧条形辅光</text>
+    <path d="M-5,16 L-100,20 M-90,10 L-102,20 L-90,30" stroke="#DC2626" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- 4. Ground Contact Shadow -->
+  <g transform="translate(680, 835)">
+    <rect x="0" y="0" width="185" height="32" rx="6" fill="#DC2626"/>
+    <text x="92" y="21" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="900">地面接触阴影</text>
+    <path d="M-5,16 L-80,18 M-70,8 L-82,18 L-70,28" stroke="#DC2626" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

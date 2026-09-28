@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <defs>
+    <!-- Background -->
+    <rect id="bg3" width="1000" height="1000" fill="#FFFFFF"/>
+
+    <!-- Contact Ground Shadows -->
+    <radialGradient id="occlusionShadow3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.32"/>
+      <stop offset="35%" stop-color="#1A1A1D" stop-opacity="0.18"/>
+      <stop offset="70%" stop-color="#3A3C44" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="softGroundShadow3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#121214" stop-opacity="0.22"/>
+      <stop offset="50%" stop-color="#2A2B30" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Bottle Gradients -->
+    <linearGradient id="bottleBodyGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#111215"/>
+      <stop offset="12%" stop-color="#22242A"/>
+      <stop offset="28%" stop-color="#555864"/>
+      <stop offset="36%" stop-color="#9EA4B5"/>
+      <stop offset="44%" stop-color="#3D404A"/>
+      <stop offset="70%" stop-color="#151619"/>
+      <stop offset="92%" stop-color="#3A3E48"/>
+      <stop offset="100%" stop-color="#18191D"/>
+    </linearGradient>
+
+    <linearGradient id="cyanAccentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0369A1"/>
+    </linearGradient>
+
+    <linearGradient id="bottleLabelGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#090A0C"/>
+      <stop offset="20%" stop-color="#181A20"/>
+      <stop offset="36%" stop-color="#2D3039"/>
+      <stop offset="50%" stop-color="#16171B"/>
+      <stop offset="85%" stop-color="#24262E"/>
+      <stop offset="100%" stop-color="#0D0E11"/>
+    </linearGradient>
+
+    <linearGradient id="boxFrontGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#151619"/>
+      <stop offset="50%" stop-color="#222328"/>
+      <stop offset="100%" stop-color="#1A1B1F"/>
+    </linearGradient>
+    <linearGradient id="boxSideGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0A0B0D"/>
+      <stop offset="100%" stop-color="#141518"/>
+    </linearGradient>
+    <linearGradient id="boxTopGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3A3C44"/>
+      <stop offset="100%" stop-color="#22242B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Pure White Background -->
+  <rect width="1000" height="1000" fill="#FFFFFF"/>
+
+  <!-- ================= GROUND SHADOWS ================= -->
+  <!-- Box Shadow -->
+  <ellipse cx="640" cy="860" rx="160" ry="24" fill="url(#softGroundShadow3)"/>
+  <ellipse cx="640" cy="858" rx="110" ry="12" fill="url(#occlusionShadow3)"/>
+
+  <!-- Bottle Shadow -->
+  <ellipse cx="440" cy="875" rx="140" ry="22" fill="url(#softGroundShadow3)"/>
+  <ellipse cx="440" cy="873" rx="90" ry="11" fill="url(#occlusionShadow3)"/>
+
+  <!-- Brush/Accessory Shadow -->
+  <ellipse cx="270" cy="865" rx="90" ry="16" fill="url(#softGroundShadow3)"/>
+  <ellipse cx="270" cy="863" rx="55" ry="8" fill="url(#occlusionShadow3)"/>
+
+  <!-- ================= ELEMENT 1: PACKAGING BOX (RIGHT REAR) ================= -->
+  <g id="packagingBox">
+    <!-- Top Face -->
+    <polygon points="560,330 670,290 760,325 650,365" fill="url(#boxTopGrad3)"/>
+    <!-- Side Face -->
+    <polygon points="650,365 760,325 760,825 650,860" fill="url(#boxSideGrad3)"/>
+    <!-- Front Face -->
+    <polygon points="560,330 650,365 650,860 560,820" fill="url(#boxFrontGrad3)"/>
+
+    <!-- Edge highlights -->
+    <line x1="650" y1="365" x2="650" y2="860" stroke="#555864" stroke-width="1.5"/>
+    <line x1="560" y1="330" x2="650" y2="365" stroke="#777B8A" stroke-width="1.2"/>
+
+    <!-- Branding on Box -->
+    <g transform="translate(575, 410)">
+      <rect x="0" y="0" width="60" height="5" fill="#38BDF8"/>
+      <text x="0" y="32" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="20" letter-spacing="1">TURBO</text>
+      <text x="0" y="60" fill="#38BDF8" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="14" letter-spacing="1.5">WHEEL</text>
+      <text x="0" y="80" fill="#E2E8F0" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="14" letter-spacing="1.5">CLEANER</text>
+      <text x="0" y="110" fill="#71717A" font-family="monospace" font-size="9">16 FL. OZ. / 473 ML</text>
+      <text x="0" y="130" fill="#A1A1AA" font-family="monospace" font-size="8">pH NEUTRAL FORMULA</text>
+    </g>
+  </g>
+
+  <!-- ================= ELEMENT 2: MAIN SPRAY BOTTLE (CENTER) ================= -->
+  <g id="sprayBottle">
+    <!-- Bottle Base & Body -->
+    <rect x="360" y="440" width="160" height="425" rx="20" fill="url(#bottleBodyGrad3)"/>
+
+    <!-- Bottle Neck -->
+    <path d="M405,440 L405,370 L475,370 L475,440 Z" fill="url(#bottleBodyGrad3)"/>
+
+    <!-- Neck Ring -->
+    <rect x="400" y="355" width="80" height="18" rx="3" fill="#1C1D22" stroke="#3A3C44" stroke-width="1"/>
+    <!-- Thread Ring -->
+    <rect x="403" y="340" width="74" height="16" rx="2" fill="#282A31" stroke="#484B55" stroke-width="1"/>
+
+    <!-- Matte Body Label -->
+    <rect x="362" y="490" width="156" height="320" rx="6" fill="url(#bottleLabelGrad3)"/>
+    <!-- Label Top Cyan Brand Line -->
+    <rect x="375" y="510" width="130" height="4" fill="#38BDF8"/>
+
+    <!-- Label Typography -->
+    <text x="440" y="540" fill="#FFFFFF" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="18" letter-spacing="3">TURBO TECH</text>
+    <text x="440" y="575" fill="#38BDF8" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="20" letter-spacing="2">WHEEL CLEANER</text>
+    <text x="440" y="605" fill="#E2E8F0" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="12" letter-spacing="1">BRAKE DUST REMOVER</text>
+
+    <!-- Cyan Accent Badge -->
+    <rect x="390" y="635" width="100" height="22" rx="4" fill="url(#cyanAccentGrad)"/>
+    <text x="440" y="650" fill="#000000" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="10" letter-spacing="1">PRO DETAILING</text>
+
+    <text x="440" y="700" fill="#94A3B8" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="10">FAST-ACTING FORMULA</text>
+    <text x="440" y="720" fill="#64748B" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="9">SAFE ON ALL ALLOY WHEELS</text>
+    <text x="440" y="775" fill="#FFFFFF" text-anchor="middle" font-family="monospace" font-weight="700" font-size="11">16 FL. OZ. (473 mL)</text>
+
+    <!-- Bottle Specular Reflections -->
+    <rect x="405" y="445" width="8" height="415" rx="3" fill="#FFFFFF" opacity="0.45"/>
+    <rect x="495" y="450" width="5" height="405" rx="2" fill="#FFFFFF" opacity="0.25"/>
+
+    <!-- Precision Spray Head rotated 18 degrees -->
+    <g transform="translate(440, 340) rotate(-18) translate(-440, -340)">
+      <!-- Nozzle body -->
+      <path d="M420,340 L420,270 Q420,250 440,245 L475,240 Q495,240 500,260 L500,340 Z" fill="#18191E" stroke="#2D3039" stroke-width="1.5"/>
+      <!-- Outward Nozzle Tip -->
+      <polygon points="370,250 425,245 425,275 370,280" fill="#24262E"/>
+      <rect x="360" y="252" width="12" height="24" rx="2" fill="#38BDF8"/>
+      <!-- Ergonomic Trigger Lever -->
+      <path d="M425,280 Q395,310 398,370 Q400,378 412,374 Q414,330 435,295 Z" fill="#282A32" stroke="#3A3C45" stroke-width="1.2"/>
+      <!-- Spray Adjuster Knob -->
+      <rect x="495" y="248" width="16" height="26" rx="3" fill="#38BDF8"/>
+      <text x="503" y="265" fill="#000000" text-anchor="middle" font-family="sans-serif" font-size="7" font-weight="900">STOP</text>
+    </g>
+  </g>
+
+  <!-- ================= ELEMENT 3: ACCESSORY BRUSH (FRONT LEFT) ================= -->
+  <g id="detailingBrush">
+    <!-- Handle -->
+    <path d="M210,875 L280,820 L305,835 L235,890 Z" fill="#1C1D22" stroke="#38BDF8" stroke-width="1.2"/>
+    <!-- Bristle Ferrule -->
+    <polygon points="280,820 305,835 320,822 295,807" fill="#38BDF8"/>
+    <!-- Soft Bristles -->
+    <polygon points="295,807 320,822 345,798 320,783" fill="#333742"/>
+    <polygon points="320,783 345,798 360,782 335,767" fill="#18191E"/>
+  </g>
+</svg>

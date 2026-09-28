@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <rect width="600" height="600" fill="#FFFFFF"/>
+
+  <!-- HARSH SOLID BLACK SHADOW (Dead black with zero blur/falloff) -->
+  <ellipse cx="290" cy="510" rx="90" ry="12" fill="#000000"/>
+
+  <!-- Bottle Group -->
+  <g transform="translate(200, 80) scale(0.9)">
+    <g transform="translate(30, 0)">
+      <path d="M40,55 L8,55 L4,72 L40,70 Z" fill="#25262B" stroke="#444752" stroke-width="1"/>
+      <ellipse cx="6" cy="63" rx="3" ry="8" fill="#151619" stroke="#FFB600" stroke-width="1"/>
+      <path d="M38,42 C38,42 65,30 115,30 C165,30 185,48 185,75 C185,100 160,118 135,120 L135,138 L85,138 L85,116 C65,116 48,102 42,88 Z" fill="#1C1D22" stroke="#383B44" stroke-width="1"/>
+      <path d="M52,90 C50,110 58,150 78,175 C82,180 88,175 85,168 C72,145 68,115 68,90 Z" fill="#2B2D35" stroke="#4B4E5A" stroke-width="1"/>
+      <rect x="75" y="138" width="70" height="24" rx="3" fill="#2A2C34" stroke="#454854" stroke-width="1"/>
+    </g>
+    <path d="M102,162 L118,162 C118,185 125,205 145,218 L168,235 C190,250 205,275 205,305 L205,480 C205,488 195,492 185,492 L35,492 C25,492 15,488 15,480 L15,305 C15,275 30,250 52,235 L75,218 C95,205 102,185 102,162 Z" fill="#22242A" stroke="#383B45" stroke-width="1.2"/>
+    <g transform="translate(18, 260)">
+      <rect width="184" height="200" rx="4" fill="#14161A" stroke="#2D303A" stroke-width="1"/>
+      <rect x="0" y="10" width="184" height="6" fill="#FFB600"/>
+      <text x="92" y="90" text-anchor="middle" fill="#FFB600" font-family="-apple-system, sans-serif" font-size="20" font-weight="900">TIRE SHINE</text>
+    </g>
+  </g>
+
+  <!-- Negative Label Callout -->
+  <rect x="130" y="540" width="340" height="36" rx="6" fill="#FEE2E2" stroke="#FCA5A5" stroke-width="1"/>
+  <text x="300" y="563" text-anchor="middle" fill="#B91C1C" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="900">❌ 生硬死黑块 · 无光学衰减</text>
+</svg>

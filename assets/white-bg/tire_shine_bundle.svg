@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <defs>
+    <!-- Background -->
+    <rect id="bg" width="1000" height="1000" fill="#FFFFFF"/>
+
+    <!-- Contact Ground Shadows -->
+    <radialGradient id="occlusionShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.32"/>
+      <stop offset="35%" stop-color="#1A1A1D" stop-opacity="0.18"/>
+      <stop offset="70%" stop-color="#3A3C44" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="softGroundShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#121214" stop-opacity="0.22"/>
+      <stop offset="50%" stop-color="#2A2B30" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Bottle Gradients -->
+    <linearGradient id="bottleBodyGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#111215"/>
+      <stop offset="12%" stop-color="#22242A"/>
+      <stop offset="28%" stop-color="#555864"/>
+      <stop offset="36%" stop-color="#9EA4B5"/>
+      <stop offset="44%" stop-color="#3D404A"/>
+      <stop offset="70%" stop-color="#151619"/>
+      <stop offset="92%" stop-color="#3A3E48"/>
+      <stop offset="100%" stop-color="#18191D"/>
+    </linearGradient>
+
+    <linearGradient id="bottleLabelGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#090A0C"/>
+      <stop offset="20%" stop-color="#181A20"/>
+      <stop offset="36%" stop-color="#2D3039"/>
+      <stop offset="50%" stop-color="#16171B"/>
+      <stop offset="85%" stop-color="#24262E"/>
+      <stop offset="100%" stop-color="#0D0E11"/>
+    </linearGradient>
+
+    <linearGradient id="goldAccentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#FFB600"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+
+    <!-- Box Gradients -->
+    <linearGradient id="boxFrontGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#151619"/>
+      <stop offset="50%" stop-color="#222328"/>
+      <stop offset="100%" stop-color="#1A1B1F"/>
+    </linearGradient>
+    <linearGradient id="boxSideGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0A0B0D"/>
+      <stop offset="100%" stop-color="#141518"/>
+    </linearGradient>
+    <linearGradient id="boxTopGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3A3C44"/>
+      <stop offset="100%" stop-color="#22242B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Pure White Background -->
+  <rect width="1000" height="1000" fill="#FFFFFF"/>
+
+  <!-- ================= GROUND SHADOWS ================= -->
+  <!-- Box shadow -->
+  <ellipse cx="690" cy="840" rx="160" ry="32" fill="url(#softGroundShadow)"/>
+  <ellipse cx="680" cy="845" rx="110" ry="14" fill="url(#occlusionShadow)"/>
+
+  <!-- Bottle shadow -->
+  <ellipse cx="480" cy="855" rx="150" ry="34" fill="url(#softGroundShadow)"/>
+  <ellipse cx="480" cy="858" rx="95" ry="15" fill="url(#occlusionShadow)"/>
+
+  <!-- Applicator shadow -->
+  <ellipse cx="280" cy="860" rx="120" ry="26" fill="url(#softGroundShadow)"/>
+  <ellipse cx="275" cy="862" rx="75" ry="12" fill="url(#occlusionShadow)"/>
+
+  <!-- ================= 1. PACKAGING BOX (RIGHT REAR) ================= -->
+  <g id="packagingBox" transform="translate(560, 310)">
+    <!-- Box Top Face -->
+    <polygon points="90,0 230,25 150,65 10,40" fill="url(#boxTopGrad)" stroke="#4A4D57" stroke-width="1"/>
+    <!-- Box Front Face (Turned ~35 deg) -->
+    <polygon points="10,40 150,65 150,530 10,505" fill="url(#boxFrontGrad)"/>
+    <!-- Box Side Face -->
+    <polygon points="150,65 230,25 230,490 150,530" fill="url(#boxSideGrad)"/>
+
+    <!-- Front Face Design & Typography -->
+    <!-- Gold Top Bar -->
+    <polygon points="10,80 150,105 150,120 10,95" fill="url(#goldAccentGrad)"/>
+    <text x="25" y="150" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="900" letter-spacing="3" transform="skewY(9.8)">PRO DETAIL</text>
+    <text x="25" y="210" fill="#FFB600" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="900" letter-spacing="2" transform="skewY(9.8)">TIRE</text>
+    <text x="25" y="245" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="900" letter-spacing="2" transform="skewY(9.8)">SHINE</text>
+    <text x="25" y="290" fill="#A0A5B5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" letter-spacing="1" transform="skewY(9.8)">CERAMIC + GRAPHENE</text>
+    <text x="25" y="320" fill="#717582" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="500" letter-spacing="1" transform="skewY(9.8)">DEEP WET GLOSS · 16 FL OZ</text>
+
+    <!-- Side Face Details -->
+    <text x="160" y="130" fill="#717582" font-family="monospace" font-size="9" transform="skewY(-16.5)">100% SPEC MATCH</text>
+    <line x1="160" y1="145" x2="220" y2="127" stroke="#333640" stroke-width="1"/>
+  </g>
+
+  <!-- ================= 2. MAIN SPRAY BOTTLE (CENTER) ================= -->
+  <g id="mainBottle" transform="translate(370, 160)">
+    <!-- Trigger Sprayer Group -->
+    <g id="sprayer" transform="translate(30, 0)">
+      <!-- Spray Nozzle (Angled 18 deg) -->
+      <path d="M40,55 L8,55 L4,72 L40,70 Z" fill="#25262B" stroke="#444752" stroke-width="1"/>
+      <ellipse cx="6" cy="63" rx="3" ry="8" fill="#151619" stroke="#FFB600" stroke-width="1"/>
+      <!-- Trigger Housing Body -->
+      <path d="M38,42 C38,42 65,30 115,30 C165,30 185,48 185,75 C185,100 160,118 135,120 L135,138 L85,138 L85,116 C65,116 48,102 42,88 Z" fill="#1C1D22" stroke="#383B44" stroke-width="1"/>
+      <!-- Trigger Lever -->
+      <path d="M52,90 C50,110 58,150 78,175 C82,180 88,175 85,168 C72,145 68,115 68,90 Z" fill="#2B2D35" stroke="#4B4E5A" stroke-width="1"/>
+      <!-- Neck Collar (Ribbed ring) -->
+      <rect x="75" y="138" width="70" height="24" rx="3" fill="#2A2C34" stroke="#454854" stroke-width="1"/>
+      <line x1="80" y1="145" x2="140" y2="145" stroke="#16171A" stroke-width="1.5"/>
+      <line x1="80" y1="152" x2="140" y2="152" stroke="#16171A" stroke-width="1.5"/>
+    </g>
+
+    <!-- Bottle Neck -->
+    <path d="M102,162 L118,162 C118,185 125,205 145,218 L168,235 C190,250 205,275 205,305 L205,685 C205,695 195,700 185,700 L35,700 C25,700 15,695 15,685 L15,305 C15,275 30,250 52,235 L75,218 C95,205 102,185 102,162 Z" fill="url(#bottleBodyGrad)" stroke="#383B45" stroke-width="1.2"/>
+
+    <!-- Subtle Shoulder Highlight -->
+    <path d="M55,240 C35,255 24,278 24,305 L24,680" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <!-- Center Left Main Highlight Strip -->
+    <path d="M72,255 L72,690" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+    <!-- Label Wrap -->
+    <g id="bottleLabel" transform="translate(18, 320)">
+      <rect width="184" height="320" rx="4" fill="url(#bottleLabelGrad)" stroke="#2D303A" stroke-width="1"/>
+      <!-- Gold Top Bar on Label -->
+      <rect x="0" y="18" width="184" height="8" fill="url(#goldAccentGrad)"/>
+
+      <!-- Brand Monogram / Logo -->
+      <g transform="translate(92, 60)" text-anchor="middle">
+        <circle cx="0" cy="0" r="18" fill="#181A20" stroke="#FFB600" stroke-width="1.5"/>
+        <text y="6" fill="#FFB600" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="900">T</text>
+        <text y="32" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="800" letter-spacing="3">TURTLE</text>
+      </g>
+
+      <!-- Product Name -->
+      <text x="92" y="145" text-anchor="middle" fill="#FFB600" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="900" letter-spacing="2">TIRE</text>
+      <text x="92" y="175" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="900" letter-spacing="2">SHINE</text>
+
+      <!-- Key Benefits & Badges -->
+      <rect x="22" y="198" width="140" height="20" rx="3" fill="#1E2027" stroke="#363945" stroke-width="0.8"/>
+      <text x="92" y="212" text-anchor="middle" fill="#A0A5B5" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="8.5" font-weight="700" letter-spacing="1">GRAPHENE + ACRYLIC</text>
+
+      <text x="92" y="245" text-anchor="middle" fill="#D1D5DB" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="9" font-weight="600">DEEP RICH BLACK SHINE</text>
+      <text x="92" y="262" text-anchor="middle" fill="#9CA3AF" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="8" font-weight="500">PREVENTS BROWNING &amp; SLING</text>
+
+      <!-- Volume Bar -->
+      <line x1="25" y1="282" x2="159" y2="282" stroke="#FFB600" stroke-width="1" stroke-opacity="0.6"/>
+      <text x="92" y="302" text-anchor="middle" fill="#E5E7EB" font-family="monospace" font-size="10" font-weight="700">16 FL. OZ. (473 mL)</text>
+    </g>
+  </g>
+
+  <!-- ================= 3. TIRE APPLICATOR PAD (LEFT FRONT) ================= -->
+  <g id="applicatorPad" transform="translate(190, 720)">
+    <!-- Yellow Grip Foam Top Layer -->
+    <path d="M10,70 C10,35 60,20 120,20 C180,20 230,35 230,70 L230,95 C230,110 180,120 120,120 C60,120 10,110 10,95 Z" fill="#FFB600" stroke="#D97706" stroke-width="1.5"/>
+    <path d="M10,70 C10,95 60,110 120,110 C180,110 230,95 230,70" fill="none" stroke="#FFE066" stroke-width="2"/>
+
+    <!-- Black Wave Contour Foam Working Layer -->
+    <path d="M10,95 C10,125 60,140 120,140 C180,140 230,125 230,95 L230,115 C230,145 180,160 120,160 C60,160 10,145 10,115 Z" fill="#1C1D21" stroke="#32343C" stroke-width="1"/>
+    <!-- Wave Ridges -->
+    <path d="M30,110 Q70,125 120,125 Q170,125 210,110" stroke="#33353E" stroke-width="2" fill="none"/>
+    <path d="M35,125 Q70,140 120,140 Q170,140 205,125" stroke="#25262E" stroke-width="2" fill="none"/>
+
+    <!-- Ergonomic Finger Indentation -->
+    <ellipse cx="120" cy="55" rx="50" ry="16" fill="#F59E0B" stroke="#D97706" stroke-width="1"/>
+    <text x="120" y="58" text-anchor="middle" fill="#78350F" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="9" font-weight="900" letter-spacing="1">HEX-GRIP CONTOUR</text>
+  </g>
+</svg>

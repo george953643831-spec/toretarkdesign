@@ -1,0 +1,38 @@
+import{c as r,r as h,j as e,K as b,D as p,M as c,R as j,k as o,N}from"./index-CYlb9IhA.js";import{a as g}from"./exportUtils-DBv8hqlY.js";/**
+ * @license lucide-react v0.546.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const f=[["path",{d:"M12 6v6l4 2",key:"mmk7yg"}],["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}]],u=r("clock",f);/**
+ * @license lucide-react v0.546.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const v=[["path",{d:"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z",key:"1rqfz7"}],["path",{d:"M14 2v4a2 2 0 0 0 2 2h4",key:"tnqrlb"}],["path",{d:"M10 9H8",key:"b1mrlr"}],["path",{d:"M16 13H8",key:"t4e002"}],["path",{d:"M16 17H8",key:"z1uh3a"}]],w=r("file-text",v);/**
+ * @license lucide-react v0.546.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const y=[["path",{d:"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z",key:"oel41y"}],["path",{d:"M12 8v4",key:"1got3b"}],["path",{d:"M12 16h.01",key:"1drbdi"}]],z=r("shield-alert",y);/**
+ * @license lucide-react v0.546.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const F=[["path",{d:"M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2",key:"975kel"}],["circle",{cx:"12",cy:"7",r:"4",key:"17ys0d"}]],k=r("user",F),C=({onShowToast:x})=>{const[l,i]=h.useState(0),a=c[l],m=()=>{const t=`# TORETARK 线上视觉全链路标准作业程序 (SOP)
+版本：2026 官方正式版
+适用范围：亚马逊 Listing、DTC 独立站、社媒物料与产品 3D 视觉
+
+${c.map(s=>`## 阶段 ${s.stepNumber}：${s.stageName}
+- 预计周期：${s.duration}
+- 责任人：${s.owner}
+- 执行事项：
+${s.actionList.map(n=>`  * ${n}`).join(`
+`)}
+- 关键交付物：
+${s.deliverables.map(n=>`  * ${n}`).join(`
+`)}
+- 质量把控标准：${s.standardCriteria}
+`).join(`
+---
+
+`)}`;g(t,"TORETARK_Visual_SOP_2026.md","text/markdown"),x("已导出《线上视觉全链路 SOP 手册》","TORETARK_Visual_SOP_2026.md","download")};return e.jsxs("div",{className:"space-y-8 animate-in fade-in duration-200",children:[e.jsxs("div",{className:"border-b border-zinc-800 pb-4 flex flex-col md:flex-row md:items-center justify-between gap-4",children:[e.jsxs("div",{children:[e.jsxs("h1",{className:"text-xl font-extrabold text-white flex items-center gap-2",children:[e.jsx(b,{className:"w-5 h-5 text-[#FFB600]"}),e.jsx("span",{children:"SOP 线上视觉作业流程"})]}),e.jsx("p",{className:"text-xs text-zinc-400 mt-1",children:"覆盖需求对标、3D实拍、页面排版、合规审核到归档入库 5 大标准化节点，把控出图质量与团队协作节拍"})]}),e.jsx("div",{className:"flex items-center gap-2",children:e.jsxs("button",{onClick:m,className:"flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold rounded-none bg-[#FFB600] text-black shadow-xs hover:bg-[#FFB600]/90 transition-colors",children:[e.jsx(p,{className:"w-3.5 h-3.5"}),e.jsx("span",{children:"导出全套 SOP 执行手册 (Markdown)"})]})})]}),e.jsx("div",{className:"p-4 rounded-2xl border border-zinc-800 bg-zinc-900/70 shadow-xl overflow-x-auto",children:e.jsx("div",{className:"flex items-center justify-between min-w-[650px] gap-2",children:c.map((t,s)=>{const n=s===l,d=s<l;return e.jsxs(j.Fragment,{children:[e.jsxs("button",{onClick:()=>i(s),className:`flex items-center gap-3 p-2.5 rounded-none transition-all flex-1 text-left ${n?"bg-[#FFB600]/15 border border-[#FFB600]/40":"hover:bg-zinc-800/60 border border-transparent"}`,children:[e.jsx("div",{className:`w-8 h-8 rounded-none flex items-center justify-center font-bold text-xs shrink-0 ${n?"bg-[#FFB600] text-black shadow-xs":d?"bg-emerald-950 text-emerald-400 border border-emerald-800":"bg-zinc-800 text-zinc-400"}`,children:d?e.jsx(o,{className:"w-4 h-4"}):`0${t.stepNumber}`}),e.jsxs("div",{className:"min-w-0",children:[e.jsx("p",{className:`text-xs font-bold truncate ${n?"text-[#FFB600]":"text-zinc-200"}`,children:t.stageName}),e.jsxs("p",{className:"text-[10px] text-zinc-400 truncate mt-0.5",children:[t.duration," · ",t.owner.split("/")[0]]})]})]}),s<c.length-1&&e.jsx(N,{className:"w-4 h-4 text-zinc-600 shrink-0"})]},t.stepNumber)})})}),e.jsxs("div",{className:"grid grid-cols-1 lg:grid-cols-12 gap-6",children:[e.jsxs("div",{className:"lg:col-span-8 p-6 rounded-2xl border border-zinc-800 bg-zinc-900/70 shadow-xl space-y-6",children:[e.jsxs("div",{className:"flex flex-wrap items-center justify-between gap-3 border-b border-zinc-800 pb-4",children:[e.jsx("div",{children:e.jsxs("div",{className:"flex items-center gap-2",children:[e.jsxs("span",{className:"text-xs font-mono font-bold px-2 py-0.5 rounded bg-[#FFB600] text-black",children:["阶段 0",a.stepNumber]}),e.jsx("h2",{className:"text-base font-bold text-white",children:a.stageName})]})}),e.jsxs("div",{className:"flex items-center gap-3 text-xs font-mono",children:[e.jsxs("div",{className:"flex items-center gap-1 text-zinc-300",children:[e.jsx(u,{className:"w-3.5 h-3.5 text-[#FFB600]"}),e.jsxs("span",{children:["预计周期: ",a.duration]})]}),e.jsxs("div",{className:"flex items-center gap-1 text-zinc-300",children:[e.jsx(k,{className:"w-3.5 h-3.5 text-[#FFB600]"}),e.jsxs("span",{children:["责任人: ",a.owner]})]})]})]}),e.jsxs("div",{className:"space-y-3",children:[e.jsxs("h3",{className:"text-xs font-bold text-zinc-300 flex items-center gap-1.5",children:[e.jsx(o,{className:"w-4 h-4 text-[#FFB600]"}),e.jsx("span",{children:"标准作业执行清单 (Action Items)"})]}),e.jsx("div",{className:"space-y-2.5",children:a.actionList.map((t,s)=>e.jsxs("div",{className:"p-3.5 rounded-xl bg-zinc-950 border border-zinc-800 flex items-start gap-3",children:[e.jsx("span",{className:"w-5 h-5 rounded-full bg-zinc-800 text-[#FFB600] text-xs font-bold flex items-center justify-center shrink-0 mt-0.5",children:s+1}),e.jsx("p",{className:"text-xs text-zinc-300 leading-relaxed",children:t})]},s))})]}),e.jsxs("div",{className:"p-4 rounded-xl bg-zinc-950 border border-zinc-800 space-y-2",children:[e.jsxs("div",{className:"flex items-center gap-2 text-xs font-bold text-amber-400",children:[e.jsx(z,{className:"w-4 h-4 text-[#FFB600]"}),e.jsx("span",{children:"质量卡点与防错准则"})]}),e.jsx("p",{className:"text-xs text-zinc-300 leading-relaxed",children:a.standardCriteria})]})]}),e.jsx("div",{className:"lg:col-span-4 space-y-4",children:e.jsxs("div",{className:"p-6 rounded-2xl border border-zinc-800 bg-zinc-900/70 shadow-xl space-y-4",children:[e.jsxs("h3",{className:"text-xs font-bold text-white flex items-center gap-1.5 border-b border-zinc-800 pb-3",children:[e.jsx(w,{className:"w-4 h-4 text-[#FFB600]"}),e.jsx("span",{children:"本阶段关键交付物 (Deliverables)"})]}),e.jsx("div",{className:"space-y-2",children:a.deliverables.map((t,s)=>e.jsxs("div",{className:"p-3 rounded-lg bg-zinc-950 border border-zinc-800 flex items-center justify-between text-xs",children:[e.jsx("span",{className:"text-zinc-200 font-medium",children:t}),e.jsx("span",{className:"text-[10px] font-mono text-emerald-400 bg-emerald-950/60 px-1.5 py-0.5 rounded",children:"必须归档"})]},s))}),e.jsxs("div",{className:"pt-4 border-t border-zinc-800 flex items-center justify-between",children:[e.jsx("button",{disabled:l===0,onClick:()=>i(t=>Math.max(0,t-1)),className:"px-3 py-1.5 text-xs font-semibold rounded-lg bg-zinc-800 text-zinc-300 hover:text-white disabled:opacity-30 disabled:cursor-not-allowed transition-colors",children:"上一阶段"}),e.jsx("button",{disabled:l===c.length-1,onClick:()=>i(t=>Math.min(c.length-1,t+1)),className:"px-3 py-1.5 text-xs font-bold rounded-lg bg-[#FFB600] text-black hover:bg-[#FFB600]/90 disabled:opacity-30 disabled:cursor-not-allowed transition-colors",children:"下一阶段"})]})]})})]})]})};export{C as VisualSop};

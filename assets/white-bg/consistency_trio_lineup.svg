@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <radialGradient id="trioShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.3"/>
+      <stop offset="40%" stop-color="#1A1A1D" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="trioBottleBody" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#111215"/>
+      <stop offset="15%" stop-color="#22242A"/>
+      <stop offset="35%" stop-color="#808595"/>
+      <stop offset="45%" stop-color="#3D404A"/>
+      <stop offset="75%" stop-color="#151619"/>
+      <stop offset="92%" stop-color="#3A3E48"/>
+      <stop offset="100%" stop-color="#18191D"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="#FFFFFF"/>
+
+  <!-- ================= PRODUCT 1: TIRE SHINE (GOLD) ================= -->
+  <g transform="translate(140, 100) scale(0.85)">
+    <ellipse cx="110" cy="710" rx="140" ry="24" fill="url(#trioShadow)"/>
+    <g transform="translate(10, 0)">
+      <path d="M40,55 L8,55 L4,72 L40,70 Z" fill="#25262B" stroke="#444752"/>
+      <ellipse cx="6" cy="63" rx="3" ry="8" fill="#151619" stroke="#FFB600"/>
+      <path d="M38,42 C38,42 65,30 115,30 C165,30 185,48 185,75 C185,100 160,118 135,120 L135,138 L85,138 L85,116 C65,116 48,102 42,88 Z" fill="#1C1D22"/>
+      <path d="M52,90 C50,110 58,150 78,175 C82,180 88,175 85,168 C72,145 68,115 68,90 Z" fill="#2B2D35"/>
+      <rect x="75" y="138" width="70" height="24" rx="3" fill="#2A2C34"/>
+    </g>
+    <path d="M102,162 L118,162 C118,185 125,205 145,218 L168,235 C190,250 205,275 205,305 L205,680 C205,690 195,696 185,696 L35,696 C25,696 15,690 15,680 L15,305 C15,275 30,250 52,235 L75,218 C95,205 102,185 102,162 Z" fill="url(#trioBottleBody)" stroke="#383B45" stroke-width="1.2"/>
+    <path d="M72,255 L72,680" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="5" fill="none"/>
+    <g transform="translate(18, 310)">
+      <rect width="184" height="310" rx="4" fill="#14161A" stroke="#2D303A"/>
+      <rect x="0" y="18" width="184" height="8" fill="#FFB600"/>
+      <text x="92" y="70" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="900">TURTLE</text>
+      <text x="92" y="145" text-anchor="middle" fill="#FFB600" font-family="sans-serif" font-size="24" font-weight="900">TIRE SHINE</text>
+      <text x="92" y="180" text-anchor="middle" fill="#A0A5B5" font-family="sans-serif" font-size="9" font-weight="700">CERAMIC + GRAPHENE</text>
+      <text x="92" y="275" text-anchor="middle" fill="#E5E7EB" font-family="monospace" font-size="11" font-weight="700">16 FL. OZ. (473 mL)</text>
+    </g>
+    <!-- Subtitle Card -->
+    <text x="110" y="760" text-anchor="middle" fill="#111827" font-family="sans-serif" font-size="16" font-weight="900">TIRE SHINE</text>
+    <text x="110" y="785" text-anchor="middle" fill="#6B7280" font-family="sans-serif" font-size="12">亮胎喷雾 · TT-TS-01</text>
+  </g>
+
+  <!-- ================= PRODUCT 2: WHEEL & TIRE CLEANER (CYAN) ================= -->
+  <g transform="translate(480, 100) scale(0.85)">
+    <ellipse cx="110" cy="710" rx="140" ry="24" fill="url(#trioShadow)"/>
+    <g transform="translate(10, 0)">
+      <path d="M40,55 L8,55 L4,72 L40,70 Z" fill="#25262B" stroke="#444752"/>
+      <ellipse cx="6" cy="63" rx="3" ry="8" fill="#151619" stroke="#38BDF8"/>
+      <path d="M38,42 C38,42 65,30 115,30 C165,30 185,48 185,75 C185,100 160,118 135,120 L135,138 L85,138 L85,116 C65,116 48,102 42,88 Z" fill="#1C1D22"/>
+      <path d="M52,90 C50,110 58,150 78,175 C82,180 88,175 85,168 C72,145 68,115 68,90 Z" fill="#2B2D35"/>
+      <rect x="75" y="138" width="70" height="24" rx="3" fill="#2A2C34"/>
+    </g>
+    <path d="M102,162 L118,162 C118,185 125,205 145,218 L168,235 C190,250 205,275 205,305 L205,680 C205,690 195,696 185,696 L35,696 C25,696 15,690 15,680 L15,305 C15,275 30,250 52,235 L75,218 C95,205 102,185 102,162 Z" fill="url(#trioBottleBody)" stroke="#383B45" stroke-width="1.2"/>
+    <path d="M72,255 L72,680" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="5" fill="none"/>
+    <g transform="translate(18, 310)">
+      <rect width="184" height="310" rx="4" fill="#14161A" stroke="#2D303A"/>
+      <rect x="0" y="18" width="184" height="8" fill="#38BDF8"/>
+      <text x="92" y="70" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="900">TURTLE</text>
+      <text x="92" y="145" text-anchor="middle" fill="#38BDF8" font-family="sans-serif" font-size="22" font-weight="900">WHEEL CLEANER</text>
+      <text x="92" y="180" text-anchor="middle" fill="#A0A5B5" font-family="sans-serif" font-size="9" font-weight="700">HEAVY DUTY FOAM</text>
+      <text x="92" y="275" text-anchor="middle" fill="#E5E7EB" font-family="monospace" font-size="11" font-weight="700">16 FL. OZ. (473 mL)</text>
+    </g>
+    <text x="110" y="760" text-anchor="middle" fill="#111827" font-family="sans-serif" font-size="16" font-weight="900">WHEEL CLEANER</text>
+    <text x="110" y="785" text-anchor="middle" fill="#6B7280" font-family="sans-serif" font-size="12">轮毂清洗剂 · TT-WC-02</text>
+  </g>
+
+  <!-- ================= PRODUCT 3: IRON REMOVER (RED) ================= -->
+  <g transform="translate(820, 100) scale(0.85)">
+    <ellipse cx="110" cy="710" rx="140" ry="24" fill="url(#trioShadow)"/>
+    <g transform="translate(10, 0)">
+      <path d="M40,55 L8,55 L4,72 L40,70 Z" fill="#25262B" stroke="#444752"/>
+      <ellipse cx="6" cy="63" rx="3" ry="8" fill="#151619" stroke="#EF4444"/>
+      <path d="M38,42 C38,42 65,30 115,30 C165,30 185,48 185,75 C185,100 160,118 135,120 L135,138 L85,138 L85,116 C65,116 48,102 42,88 Z" fill="#1C1D22"/>
+      <path d="M52,90 C50,110 58,150 78,175 C82,180 88,175 85,168 C72,145 68,115 68,90 Z" fill="#2B2D35"/>
+      <rect x="75" y="138" width="70" height="24" rx="3" fill="#2A2C34"/>
+    </g>
+    <path d="M102,162 L118,162 C118,185 125,205 145,218 L168,235 C190,250 205,275 205,305 L205,680 C205,690 195,696 185,696 L35,696 C25,696 15,690 15,680 L15,305 C15,275 30,250 52,235 L75,218 C95,205 102,185 102,162 Z" fill="url(#trioBottleBody)" stroke="#383B45" stroke-width="1.2"/>
+    <path d="M72,255 L72,680" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="5" fill="none"/>
+    <g transform="translate(18, 310)">
+      <rect width="184" height="310" rx="4" fill="#14161A" stroke="#2D303A"/>
+      <rect x="0" y="18" width="184" height="8" fill="#EF4444"/>
+      <text x="92" y="70" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="900">TURTLE</text>
+      <text x="92" y="145" text-anchor="middle" fill="#EF4444" font-family="sans-serif" font-size="24" font-weight="900">IRON REMOVER</text>
+      <text x="92" y="180" text-anchor="middle" fill="#A0A5B5" font-family="sans-serif" font-size="9" font-weight="700">COLOR ACTIVATING</text>
+      <text x="92" y="275" text-anchor="middle" fill="#E5E7EB" font-family="monospace" font-size="11" font-weight="700">16 FL. OZ. (473 mL)</text>
+    </g>
+    <text x="110" y="760" text-anchor="middle" fill="#111827" font-family="sans-serif" font-size="16" font-weight="900">IRON REMOVER</text>
+    <text x="110" y="785" text-anchor="middle" fill="#6B7280" font-family="sans-serif" font-size="12">铁粉去除剂 · TT-IR-03</text>
+  </g>
+</svg>
