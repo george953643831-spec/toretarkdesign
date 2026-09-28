@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 240" fill="none">
+  <g transform="translate(95, 20)">
+    <rect width="70" height="70" rx="18" fill="#0D0D0E" stroke="#FFB600" stroke-width="2.5"/>
+    <path d="M16 22H54V32H39V54H31V32H16V22Z" fill="#FFB600"/>
+    <polygon points="50,18 53,26 61,29 53,32 50,40 47,32 39,29 47,26" fill="#FFFFFF"/>
+  </g>
+  <text x="130" y="132" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="28" letter-spacing="-0.02em" fill="#FFFFFF">TORETARK</text>
+  <text x="130" y="156" text-anchor="middle" font-family="monospace" font-weight="700" font-size="10.5" letter-spacing="0.22em" fill="#FFB600">TO RESTORE REMARKABLE</text>
+  <text x="130" y="178" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="500" font-size="10" letter-spacing="0.15em" fill="#71717A">PROFESSIONAL AUTO DETAILING</text>
+  <line x1="80" y1="196" x2="180" y2="196" stroke="#FFB600" stroke-width="2" stroke-linecap="round"/>
+</svg>

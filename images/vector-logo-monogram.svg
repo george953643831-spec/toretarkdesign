@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 720 840" width="720" height="840">
+  <defs>
+    <mask id="sparkle-cutout">
+      <rect x="-40" y="-40" width="720" height="840" fill="white" />
+      <!-- Star Sparkle cutout -->
+      <!-- Center at (440, 260) -->
+      <!-- Left tip at (344, 260) - needle pointing left -->
+      <!-- Right tip at (500, 260) - cuts through right edge at 480 -->
+      <!-- Top tip at (440, 214) - cuts through top edge at 228 -->
+      <!-- Bottom tip at (440, 306) - cuts through bottom edge at 292 -->
+      <path d="M 440 214 
+               C 441.5 250, 380 259, 344 260 
+               C 380 261, 441.5 270, 440 306 
+               C 443.5 270, 476 261, 500 260 
+               C 476 259, 443.5 250, 440 214 Z" fill="black" />
+    </mask>
+  </defs>
+
+  <!-- Outer Shield Ring -->
+  <path fill="#FFB600" fill-rule="evenodd" d="
+    M 320 0
+    C 255 48, 160 100, 0 96
+    C 4 235, 16 430, 72 546
+    C 132 654, 232 720, 320 760
+    C 408 720, 508 654, 568 546
+    C 624 430, 636 235, 640 96
+    C 480 100, 385 48, 320 0 Z
+
+    M 320 58
+    C 372 96, 460 142, 592 140
+    C 588 256, 578 424, 528 522
+    C 476 618, 392 674, 320 706
+    C 248 674, 164 618, 112 522
+    C 62 424, 52 256, 48 140
+    C 180 142, 268 96, 320 58 Z
+  " />
+
+  <!-- Center T with Star Cutout -->
+  <g mask="url(#sparkle-cutout)">
+    <rect x="160" y="228" width="320" height="64" fill="#FFB600" />
+    <rect x="276" y="292" width="88" height="276" fill="#FFB600" />
+  </g>
+</svg>
